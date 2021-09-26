@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(activity4Intent);
     }
     public void newactivity5(View view) {
-        Intent activity5Intent = new Intent(getApplicationContext(), Activity5.class);
+        Intent activity5Intent =  new Intent(getApplicationContext(), Activity5.class);
         startActivity(activity5Intent);
     }
 
