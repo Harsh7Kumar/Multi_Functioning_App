@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCEEE8EF"
+    tools:context=".Activity5">
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="145dp"
+        android:layout_height="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="224dp"
+        android:background="#10DCB2"
+        android:onClick="save"
+        android:text="@string/save"
+        android:textSize="24sp"
+        app:icon="@android:drawable/ic_menu_save" />
+
+    <Button
+        android:id="@+id/button_load"
+        android:layout_width="145dp"
+        android:layout_height="73dp"
+        android:layout_below="@+id/button_save"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="#DCB43D"
+        android:onClick="load"
+        android:text="@string/load"
+        android:textSize="24sp"
+        app:icon="@android:drawable/stat_sys_download_done" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="360dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:hint="Enter Text"
+        android:inputType="textPersonName"
+        android:textColor="#9C27B0"
+        android:textColorHint="#184EEF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+</RelativeLayout>
